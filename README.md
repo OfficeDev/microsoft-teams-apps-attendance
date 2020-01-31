@@ -25,13 +25,13 @@ In this tab, Teachers can mark and record attendance for a class that they condu
  - Summarized metrics of the class
  - A detailed attendance view of each student who is a part of the class
 
-![Take attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/TakeAttendance.png)
+![Take attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/Readme-1.png)
 
 **Historic Attendance**
 
 In this tab, Teachers can view a consolidated historic attendance report for classes conducted in the specified date range. Teachers will be able to export attendance records for the entire class or can opt to export individual student records for the selected duration.
 
-![Historic attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/HistoricAttendance.png)
+![Historic attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/Readme-2.png)
 
 ## Legal Notices
 Please read the license terms applicable to this template [here](https://github.com/OfficeDev/microsoft-teams-apps-attendance/blob/master/LICENSE). In addition to these terms, you agree to the following:
