@@ -1,53 +1,61 @@
 ---
 page_type: sample
-languages:
-- csharp
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+- Power Apps
+- Power Automate
+description: Attendance app is a Power Apps based solution to take attendance in educational tenant.
+urlFragment: microsoft-teams-apps-attendance
 ---
 
-# Official Microsoft Sample
+**Attendance App Template**
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Deployment-guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Solution-overview) |
+| ---- | ---- | ---- |
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+Attendance app is designed to be used in a typical classroom scenario with a teacher and a group of students. The app will help teachers to record and save attendance of students in a clear and concise way rather than the traditional pen and paper attendance method. 
+Teachers can mark or edit attendance for the current date or for up to 30 days in the past and view summarized attendance reports of a class or a student.
+It is built using Power Apps as a platform.
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+Attendance app has two tabs:
 
-Give a short description for your sample here. What does it do and why is it important?
+**Take Attendance**
 
-## Contents
+In this tab, Teachers can mark and record attendance for a class that they conduct for the current date or up to 30 days in the past. The tab comprises of 3 sections:. It comprises of 3 sections:
+ - Input fields
+ - Summarized metrics of the class
+ - A detailed attendance view of each student who is a part of the class
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+![Take attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/TakeAttendance.png)
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+**Historic Attendance**
 
-## Prerequisites
+In this tab, Teachers can view a consolidated historic attendance report for classes conducted in the specified date range. Teachers will be able to export attendance records for the entire class or can opt to export individual student records for the selected duration.
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+![Historic attendance page](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Images/HistoricAttendance.png)
 
-## Setup
+## Legal Notices
+Please read the license terms applicable to this template [here](https://github.com/OfficeDev/microsoft-teams-apps-attendance/blob/master/LICENSE). In addition to these terms, you agree to the following:
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+ - You are responsible for complying with privacy and security regulations applicable to your app.
+ 
+ - Use, collection, and handling of any personal data by your app is your responsibility alone.  Microsoft will not have any access to data collected through your app.  Microsoft will not responsible for any data related incidents or data subject requests.
+ 
+ - If your app is developed to be sideloaded internally within your organization, you agree to comply with all internal privacy and security policies of your organization.
+ 
+ - Use of this template does not guarantee acceptance of your app to Teams app store.  To make this app available in the Teams app store, you will have to comply with [submission process and validation](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+ 
+ - Any Microsoft trademarks and logos included in this repository are property of Microsoft and should not be reused, redistributed, modified, repurposed, or otherwise altered or used outside of this repository.
 
-## Running the sample
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+## Getting Started
+Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Solution-Overview) to read about what the app does and how it works.
 
-## Key concepts
+When you're ready to try out Attendance Power App, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-attendance/wiki/Deployment-Guide).
 
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+## Feedback
+Thoughts? Questions? Ideas? Share them with us on [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)!
+
+Please report bugs and other code issues [here](https://github.com/OfficeDev/microsoft-teams-apps-attendance/blob/master/LICENSE).
 
 ## Contributing
 
